@@ -1,20 +1,14 @@
-# SampleApp
+# アプリケーション名
 
-This is a sample application repository for testing purposes.
+SampleApp - シンプルTODOアプリ
 
-## Getting Started
+# 概要
 
-Instructions for setting up and running the application will be added here.
+日々のタスクを管理するためのシンプルなTODOアプリケーションです。タスクの追加、完了、削除などの基本的な機能を提供します。
 
-## Features
+# 技術スタック
 
-- Feature 1: Sample feature description
-- Feature 2: Another sample feature
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-MIT
+- フロントエンド: React
+- バックエンド: Node.js / Express
+- データベース: SQLite
+- スタイリング: CSS Modules
