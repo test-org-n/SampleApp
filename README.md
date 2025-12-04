@@ -51,6 +51,26 @@ SampleApp/
 └── public/            # 静的ファイル
 ```
 
+# API エンドポイント
+
+## タスク関連
+
+| メソッド | エンドポイント | 説明 |
+|---------|---------------|------|
+| GET | /api/tasks | 全タスク取得 |
+| GET | /api/tasks/:id | タスク詳細取得 |
+| POST | /api/tasks | タスク作成 |
+| PUT | /api/tasks/:id | タスク更新 |
+| DELETE | /api/tasks/:id | タスク削除 |
+
+## カテゴリ関連
+
+| メソッド | エンドポイント | 説明 |
+|---------|---------------|------|
+| GET | /api/categories | 全カテゴリ取得 |
+| POST | /api/categories | カテゴリ作成 |
+| DELETE | /api/categories/:id | カテゴリ削除 |
+
 # ライセンス
 
 MIT
